@@ -1,6 +1,9 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required <<========== We can turn it on later
 
+"USE THIS COMMAND to download VUNDLE
+"git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
